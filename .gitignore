@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# Data, models and local state (never commit)
+datasets/*
+!datasets/README.md
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+backend/data/
+*.db
+*.sqlite3
+reports/*
+!reports/README.md
+!reports/.gitkeep
+# Frontend
+frontend/node_modules/
+frontend/dist/
+# Secrets / OS
+.env
+.DS_Store
